@@ -12,7 +12,7 @@ const Incomplete = ({ todos, setTodos }) => {
           .map(function (t) {
             return (
               <li key={t.id}>
-                {t.title}
+                {t.title} // {t.createdAt}
                 <button
                   onClick={function () {
                     setTodos(

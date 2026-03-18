@@ -13,6 +13,7 @@ const TodoList = ({ todos, setTitle, title, setTodos }) => {
               id: Date.now(),
               title,
               completed: false,
+              createdAt: new Date().toLocaleString(),
             },
           ];
 
